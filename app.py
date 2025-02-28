@@ -8,12 +8,12 @@ import seaborn as sns
 # Set page configuration
 st.set_page_config(page_title="QEMO", layout="wide")
 
-# Inject CSS for a full-page background with overlay hii
+# Inject CSS for a full-page background with overlay hi
 st.markdown(
     """
     <style>
     .stApp {
-        background: url("D:\QEMO\Wind+Solar Energy.jpg");
+        background: url("./Wind+Solar Energy.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -65,7 +65,7 @@ if page == "Overview":
     def overview_content():
         st.header("Project Overview")
         # Display background image again (optional if you want a different image)
-        st.image("D:\QEMO\Wind+Solar Energy.jpg", width=800)
+        st.image("./Wind+Solar Energy.jpg", width=800)
         st.markdown(
             """
             **QEMO** leverages deep learning and ensemble techniques to forecast and optimize energy production from solar and wind sources.
