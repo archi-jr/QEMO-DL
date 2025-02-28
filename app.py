@@ -8,7 +8,7 @@ import seaborn as sns
 # Set page configuration
 st.set_page_config(page_title="QEMO", layout="wide")
 
-# Inject CSS for a full-page background with overlay
+# Inject CSS for a full-page background with overlay hii
 st.markdown(
     """
     <style>
